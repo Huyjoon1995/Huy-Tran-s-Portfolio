@@ -1,0 +1,180 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+  <title>Huy Tran's Portfolio</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class= "navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img src="images/logo.png" class="size"></a>
+      </div>
+        <div class="collapse navbar-collapse" id="MyNavbar">
+           <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#background">BackGround</a></li>
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a hef="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/view1.jpg">
+      <div class="carousel-caption">
+        <h1>Beautiful City At Night</h1>
+        <br>
+        <button type="button" class="btn btn-default">Get Started</button>
+      </div><!--End of active-->
+    </div>
+    <div class="item">
+      <img src="images/view2.png">
+    </div>
+    <div class="item">
+      <img src="images/view3.jpg">
+      </div>
+    </div>
+    <!-- Left and right controls -->
+ <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+   <span class="glyphicon glyphicon-chevron-left"></span>
+   <span class="sr-only">Previous</span>
+ </a>
+ <a class="right carousel-control" href="#myCarousel" data-slide="next">
+   <span class="glyphicon glyphicon-chevron-right"></span>
+   <span class="sr-only">Next</span>
+ </a>
+  </div><!-- End of slide -->
+  <div class="container text-center">
+    <h2><b>All information about me</b></h2>
+    <div class= "row">
+      <div class="col-sm-4">
+        <img src="images/background.jpg" id="icon">
+        <h4><b>BackGround</b></h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/skill.png" id="icon">
+        <h4><b>Skill</b></h4>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/experience.png" id="icon">
+        <h4><b>Experience</b></h4>
+      </div>
+    </div>
+  </div>
+  <div class="container" id ="background">
+    <div class="row">
+      <div class="col-md-6" id="height">
+        <h4><b>BackGround</b></h4>
+        <p>I'm a self-taught programmer who loves to learn new technologies, languages, and fast learner also adapt quickly.
+          I'm currently working on my BS degree in Computer Science at UW Tacoma
+        </p>
+        <p>
+          Computers are the most influence tools in our society, and the key to the future. In my opinion, computing industries have made global impacts, and I want to be a part of it.
+           As long as computers are around, we will continue to witness incredible moments from Microsoft, Apple, and the gamming communities.
+            All three have something in common – they require code. My goal is to be a good software engineer so
+            I can be a part of a team that creates worthwhile, efficient, and useful software to give the customers a great experience.
+        </p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/map.jpg" class="img-responsive">
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="skill">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <h4><b>Skill</b></h4>
+        <p>
+          <b><u>Web Related Languages:</u></b> Html, Css, Javascrip, Node.js, Mongodb
+        </p>
+        <p>
+          <b><u>Programming languages:</u></b> Java
+        </p>
+        <p>
+          <b><u>Technologies:</u></b>  Bootstrap, Github, Developer Tool
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="images/coding.jpg" class="img-responsive">
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12" id="experience">
+        <h4><b>Work Experience</b></h4>
+        <h4>
+          <b>Sam's Income Tax(Tacoma 01/2017-03/2017)</b>
+        </h4>
+        <p>Agent Assitant</p>
+        <h4>
+          <b>Mobile App Developer Group Internship(04/2016-06/2016)</b>
+        </h4>
+        <p>
+          Developed native Android app using Android studio and hybrid apps for Android, IOS, and windows phone using Apache Cordova.
+          Developing cross-platform application with Xamarin
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <img src="images/workExperience.jpg" class="img-responsive">
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <h4><a href="#hidden" data-toggle="collapse"><b>More info about me and my project?<b/></a></h4>
+      <h4><b>Certification</b></h4>
+      <p>
+        Free Code Camp Front End Development Certificate. The program contains 10 projects, 9 advance javascript algorithm,
+         21 intermediate javascript alogirthm, working with JSON API and AJAX, also learn about responsive design with bootstrap
+      </p>
+      <p>
+        Free Code Camp Back End Development Certificate. The program contains challenge relates to node.js, express, mongodb,
+        5 Restful API project, 5 dynamic web challenges.
+      </p>
+      <a href="https://www.freecodecamp.org/huyjoon1995/front-end-certification"  target="_blank"><b>Front End Certificate</b></a>
+      <br>
+      <a href="https://www.freecodecamp.org/huyjoon1995/back-end-certification" target="_blank"><b>Back End Certification</b></a>
+  </div>
+</div>
+  <footer class="container-fluid text-center">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3>Contact Information</h3>
+          <b><u>Phone</u></b>: 206-637-9757
+          <br>
+          <b><u>Address</u></b>: 701 E I St Apt A1 Tacoma WA 98404
+          <br>
+          <b><u>Email</u></b>: huyjoon08011995@gmail.com
+          <br>
+        </div>
+        <div class="col-sm-4">
+          <h3>Connect</h3>
+          <a href="https://github.com/Huyjoon1995" class="fa fa-github"  target="_blank"></a>
+          <a href="https://www.linkedin.com/in/huy-tran-5166aa143/  target="_blank"" class="fa fa-linkedin"></a>
+          <a href="https://www.freecodecamp.org/huyjoon1995" target="_blank" class="fa fa-free-code-camp"></a>
+        </div>
+        <div class="col-sm-4">
+          <img src="images/symbol.png" id="icon">
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
